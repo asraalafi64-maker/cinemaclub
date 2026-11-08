@@ -17,6 +17,7 @@ function MovieList() {
         rating={8.3}
         available={false}
         popular={false}
+        genre="Animation"
       />
       <MovieCard
         title="Parasite"
@@ -24,6 +25,7 @@ function MovieList() {
         rating={8.5}
         available={true}
         popular={false}
+        genre ="Drama"
       />
     </section>
   );
