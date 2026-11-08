@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/header';
 import MovieCard from './components/MovieCard';
 import MovieList from './components/MovieList';
@@ -11,6 +12,7 @@ function App() {
     <main>
       <Header/>
       <MovieList/>
+      <Footer/>
     </main>
   );
 }
